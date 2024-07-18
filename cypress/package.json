@@ -1,0 +1,18 @@
+{
+  "name": "cypress-grep-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "run:smoke:tests": "cypress run --env grepTags=\"@smoke\"",
+    "run:ui:tests": "cypress run --env grepTags=\"@uitest\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cypress/grep": "^4.1.0",
+    "cypress": "^13.13.1",
+    "typescript": "^5.5.3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "playwright-grep-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "run:smoke:tests": "npx playwright test --grep \"@smoke\"",
+    "run:ui:tests": "npx playwright test --grep \"@uitest\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.45.2",
+    "@types/node": "^20.14.11"
+  }
+}

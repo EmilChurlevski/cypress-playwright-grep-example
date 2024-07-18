@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["es5", "dom"],
+    "types": ["cypress", "node", "@cypress/grep"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "preserveValueImports": false,
+    "esModuleInterop": true
+  },
+  "include": ["**/*.ts"]
+}
